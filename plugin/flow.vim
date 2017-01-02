@@ -1,9 +1,9 @@
 " flow.vim - Flow typechecker integration for vim
 
-if exists("g:loaded_flow")
+if exists("g:loaded_flow2")
   finish
 endif
-let g:loaded_flow = 1
+let g:loaded_flow2 = 1
 
 " Configuration switches:
 " - enable:     Typechecking is done on :w.
